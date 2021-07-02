@@ -74,7 +74,7 @@ class Equipo38 {
   
       a1.onclick = function () {
         this.borrarMain();
-        this.main();
+        this.dibujarPagPrincipal();
       }.bind(this);
   
       span0.className = "logo-textovm38";
