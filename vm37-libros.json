@@ -1,0 +1,456 @@
+{
+    "libros": [
+        {
+            "nombre": "el peletero",
+            "titulo": "El Peletero",
+            "autor": "Luis Guzman",
+            "editorial": "Edhasa",
+            "publicacion": 2007,
+            "descripcion": "Landa, peletero e hijo de peleteros, no concibe su vida fuera de ese mundo destinado a la desaparecer y no admite la derrota con resignación. No está solo: el azar, y también cierta inclinación a la mentira, le deparan un socio inesperado, Hueso. Cada uno busca su venganza, si se quiere, un modesto ajuste de cuentas.",
+            "img": "imgLibros/elPeletero.jpg"
+        },
+        {
+            "nombre": "el campito",
+            "titulo": "El campito",
+            "autor": "Juan Diego Incardona",
+            "editorial": "Interzona",
+            "publicacion": 2009,
+            "descripcion": "Juan Diego Incardona lleva las posibilidades de ese escenario al límite. En un relato dantesco donde los residuos industriales crean animales fabulosos, las escenas de la Divina Comedia se entrelazan a la mitología barrial y peronista, y la vida cotidiana no se distingue claramente del teatro de operaciones de una batalla que necesita ser contada. Tiene también la virtud de mostrarnos de manera casi inmediata, realista y al mismo tiempo fantástica y piadosa, el modo en el que se anudan el loteo suburbano y sus personajes a un gran relato nacional.",
+            "img": "imgLibros/elCampito.jpg"
+        },
+        {
+            "nombre": "florentina",
+            "titulo": "Florentina",
+            "autor": "Eduardo Muslip",
+            "editorial": "Caballo de Troya",
+            "publicacion": 2018,
+            "descripcion": "Una emocionante novela que nos traslada al siglo XX de la mano de Florentina, abuela del autor y emigrante gallega en Buenos Aires, a la vez que nos presenta dos mundos distintos: España y Argentina.",
+            "img": "imgLibros/florentina.jpg"
+        },
+        {
+            "nombre": "riachuelo. zona de promesas.",
+            "titulo": "Riachuelo. Zona de promesas",
+            "autor": "Beatriz Mendoza",
+            "editorial": "UNDAV Ed.",
+            "publicacion": 2017,
+            "descripcion": "La contaminación ambiental del Río Matanza-Riachuelo es una problemática que parece no tener fin. En 2004 fue llevada a instancias judiciales por un grupo de vecinos que presentaron una demanda en reclamo de la recomposición del ambiente y la creación de un fondo para financiar el saneamiento. Esa situación dio origen a la denominada “Causa Mendoza”, en la que se responsabilizaba por daños y perjuicios al Estado Nacional, la provincia de Buenos Aires, la Ciudad Autónoma de Buenos Aires y a 44 empresas.",
+            "img": "imgLibros/riachueloPromesas.jpg"
+        },
+        {
+            "nombre": "politica, derechos y justicia ambiental. el conflicto del riachuelo",
+            "titulo": "Política, derechos y justicia ambiental. El conflicto del Riachuelo",
+            "autor": "Gabriela Merlinsky",
+            "editorial": "Fondo de Cultura Económica",
+            "publicacion": 2013,
+            "descripcion": "Gabriela Merlinsky analiza las demandas sociales y la construcción de políticas públicas en torno al saneamiento de las cuencas hídricas del río argentino Matanza-Riachuelo.",
+            "img": "imgLibros/politicaDerechos.jpg"
+        },
+        {
+            "nombre": "el color del rio",
+            "titulo": "El color del río",
+            "autor": "Graciela Silvestri",
+            "editorial": "UNQ (Un. Nac. de Quilmes",
+            "publicacion":  2003,
+            "descripcion": "¿Cómo se produce un paisaje industrial? Este libro relata la biografía del Riachuelo como paisaje, a través de materiales tan diversos como diversos son los elementos que lo constituyen.",
+            "img": "imgLibros/colorRio.jpg"
+        },
+       
+        {
+            "nombre": "barrio gris",
+            "titulo": "Barrio Gris",
+            "autor": "Gómez Bas",
+            "editorial": "Hyspamérica - Emecé",
+            "publicacion": 1952,
+            "descripcion": "Desde su aparición, Barrio Gris se consagró como una de las novelas destinadas a permanecer en la historia de la literatura argentina. Muchos méritos le otorgaban esa jerarquía: el indiscutible talento con que su autor, Joaquín Gómez Bas, había eludido los convencionales esquemas de toda pintura de arrabal, con lealtad mayor a su autenticidad de escritor que a las obligaciones de un realismo paradójicamente retórico; la calidad humana nunca desmentida de sus personajes; el estilo, que debe su fluidez a un ajuste perfecto y a la aparente simplicidad, y sobre todo, y en primer término, el milagro que se concreta en Barrio gris.",
+            "img": "imgLibros/barrioGris.jpg"
+        },
+        {
+            "nombre": "los muertos del riachuelo",
+            "titulo": "Los muertos del Riachuelo",
+            "autor": "Hernán Domínguez Nimo",
+            "editorial": "Interzona",
+            "publicacion": 2018,
+            "descripcion": "El autor incursiona en una Argentina posible y construye una alegoría loca que hace reír y horroriza, una trama tan absurda como verdadera porque sale de su propio, su más actual barro maloliente. En la frontera de Buenos Aires, las aguas negras y aceitosas del Riachuelo esconden muertos. Cada muerto es una historia, una deuda, una injusticia impune. Contaminación, política corrupta, un Estado que abandona a la gente más vulnerable son causas previsibles. Lo imprevisible es lo que está por ocurrir",
+            "img": "imgLibros/losMuertos.jpg"
+        },
+        {
+            "nombre": "la boca roja del riachuelo",
+            "titulo": "La boca roja del Riachuelo. ",
+            "autor": "Graciela Ramos",
+            "editorial": "SUMA (Random)",
+            "publicacion": 2017,
+            "descripcion": "Una joven es atrapada por una red de trata en la Buenos Aires convulsa de principios del siglo XX. Amor, luchas y pasiones en una novela absorbente.",
+            "img": "imgLibros/bocaRoja.jpg"
+        },
+        {
+            "nombre": "el Riachuelo",
+            "titulo": "El Riachuelo",
+            "autor": "Antonio Brailovsky",
+            "editorial": "CEAL",
+            "publicacion": "",
+            "descripcion": "Uno de los aspectos más incomprensibles de la cuestión ambiental en la Argentina es la inacción referida al Riachuelo. La última vez que alguien se tomó en serio el problema fue bajo la presidencia de Sarmiento, cuando la Legislatura de la Provincia de Buenos Aires ordenó erradicar las industrias contaminantes de sus márgenes, orden que, por otra parte, fue cumplida estrictamente.",
+            "img": "imgLibros/AntonioBrailosvky.jpg"
+        },
+        {
+            "nombre": "las cosas que perdimos en el fuego (bajo el agua negra)",
+            "titulo": "Las cosas que perdimos en el fuego (Bajo el agua negra)",
+            "autor": "Mariana Enriquez",
+            "editorial": "Anagrama (Ver Riverside)",
+            "publicacion": 2016,
+            "descripcion": "Las cosas que perdimos en el fuego es la segunda colección de cuentos de la escritora argentina Mariana Enríquez, publicada en 2016 por la editorial Anagrama. La obra cuenta con 12 relatos enmarcados en el género del terror, en los que Enríquez explora temáticas sociales como la depresión, la pobreza,  los desórdenes alimenticios,  la desigualdad y la violencia de género. ",
+            "img": "imgLibros/cosasPerdimos.jpg"
+        },
+        {
+            "nombre": "sangre salada",
+            "titulo": "Sangre salada",
+            "autor": "Sebastián Hacher",
+            "editorial": "Marea editorial ",
+            "publicacion": 2011,
+            "descripcion": "Una narración vertiginosa sobre la feria textil ilegal más grande de Latinoamérica. Sangre Salada cuenta la saga de familias migrantes capaces de lidiar con la muerte y con el trabajo a destajo, entre la ambición y el sometimiento a las redes ilegales, siempre bajo la sombra de policías corruptos y jefes tan implacables como bizarros.",
+            "img": "imgLibros/sangreSalada.jpg"
+        },
+        {
+            "nombre": "la salada",
+            "titulo": "La Salada",
+            "autor": "Nacho Giron",
+            "editorial": "Planeta",
+            "publicacion": 2011,
+            "descripcion": "El trabajo de Nacho Girón, una magistral pieza de la investigación periodística, está hecho de voces; voces del subsuelo que fueron construyendo la arquitectura del paseo comercial más popular de América Latina",
+            "img": "imgLibros/laSalada.jpg"
+        },
+        {
+            "nombre": "los otros",
+            "titulo": "Los otros",
+            "autor": "Josefina Licitra",
+            "editorial": "Debate",
+            "publicacion": 2011,
+            "descripcion": "Josefina viajó hasta un lugar del conurbano bonaerense que, décadas atrás, pudo ser un jardín pero terminó en desangradero. Volvió con este relato intenso en el que se mezclan cloacas, curtiembres, ríos pútridos y muertos jóvenes, una historia de vecindad amarga de los que tienen poco contra los que no tienen nada, aunque todos hayan llegado hasta allí buscando más o menos lo mismo. Y aunque, por supuesto, ya nadie se acuerde de eso",
+            "img": "imgLibros/losOtros.jpg"
+        },
+        {
+            "nombre": "el riachuelo",
+            "titulo": "El Riachuelo",
+            "autor": "Martín Kohan",
+            "editorial": "Cuaderno Lírico",
+            "publicacion": 2018,
+            "descripcion": "Ese río ni nombre tiene. Porque dio en llamarse “Riachuelo”, que es más una designación que un nombre, que es un sustantivo común (porque el río es eso: común) antes que un sustantivo propio (porque el río nada tiene de propio). Llamarlo “riacho”, decirle “riacho”, habría supuesto ya de por sí una disminución; “riachuelo” implica entonces una doble reducción, decirle al río dos veces que es pequeño, que es menor, que es poca cosa. El Riachuelo tiene pues la impronta de lo desestimado: la fuerza de lo desestimado. Sin eso su paisaje no sería lo que es.",
+            "img": "imgLibros/elRiachuelo.jpg"
+        },
+        {
+            "nombre": "aguas arriba",
+            "titulo": "Aguas arriba",
+            "autor": "Andrea Cuesta Ferrarazzo y Silvina Babich",
+            "editorial": "EDULP",
+            "publicacion": 2019,
+            "descripcion": "Las navegaciones y recorridas por el espacio costero del Riachuelo realizadas entre 2014 y 2016 generaron una diversidad de producciones que merecían hacerse visibles para exponer y compartir la transformación del paisaje de la cuenca baja del Riachuelo.",
+            "img": "imgLibros/aguasArriba.jpg"
+        },
+        {
+            "nombre": "el rio y  la ciudad",
+            "titulo": "El río y  la ciudad",
+            "autor": "VV. AA.",
+            "editorial": "EDUNER",
+            "publicacion": 2019,
+            "descripcion": "«¿Qué fue primero? ¿El río o la ciudad?», se plantea al comienzo Laura Gentilezza, responsable de este volumen. Y la pregunta atraviesa ágil todos los trabajos de este libro, distintos y al mismo tiempo confluyentes. Cualquier respuesta no puede sino regresarnos al inicio, como bien concluye Gentilezza: «El río ha señalado el lugar en donde habrían de asentarse las ciudades que se benefician de las ventajas económicas e higiénicas procuradas por su proximidad. Las ciudades han dibujado alrededor de los ríos el marco que recorta su ritmo y los ingresa en el movimiento de la historia». ¿Qué fue primero?",
+            "img": "imgLibros/elRio.jpg"
+        },
+        {
+            "nombre": "agua y territorio",
+            "titulo": "Agua y territorio",
+            "autor": "María Di Pace",
+            "editorial": "Ciccus",
+            "publicacion": 2012,
+            "descripcion": "Destacada obra colectiva que explora la complejidad que surge de lo9s problemas vinculados con el manejo del agua. El Área de Ecología Urbana perteneciente al Instituto del Conurbano de la Universidad Nacional de General Sarmiento, se complace en presentar esta publicación. El equipo viene trabajando interdisciplinariamente en la temática de las cuencas hídricas de RMBA desde el año 1999. La presente publicación sintetiza diversas experiencias de investigación con el objetivo de contribuir a una perspectiva metropolitana. ",
+            "img": "imgLibros/aguaY.jpg"
+        },
+        {
+            "nombre": "la boca del riachuelo",
+            "titulo": "La Boca del Riachuelo",
+            "autor": "José Pugliese",
+            "editorial": "Agrupación de Gente arte y Letras Impulso",
+            "publicacion": 1978,
+            "descripcion": "La Boca del Riachuelo : sus calles, plazas y puentes : origen, evolucion y significado de sus nombres",
+            "img": "imgLibros/laBoca.jpg"
+        },
+        {
+            "nombre": "la boca del riachuelo en la historia",
+            "titulo": "La Boca del Riachuelo en la Historia",
+            "autor": "Antonio Bucich",
+            "editorial": "Asociación de amigos de la escuela-museo de Bellas Artes de La Boca",
+            "publicacion": 1971,
+            "descripcion": "De la Asociación Amigos de la Escuela-Museo de Bellas Artes de la Boca",
+            "img": "imgLibros/bocaRiachuelo.jpg"
+        },
+        {
+            "nombre": "historia de la boca del riachuelo",
+            "titulo": "Historia de la Boca del Riachuelo",
+            "autor": "Enrique Gandía",
+            "editorial": "Ateneo Popular de La Boca",
+            "publicacion": 1939,
+            "descripcion": "Buenos Aires : Ateneo popular de la boca",
+            "img": "imgLibros/historiaBoca.jpg"
+        },
+        {
+            "nombre": "buenos aires. ciudad inundable",
+            "titulo": "Buenos Aires. Ciudad inundable",
+            "autor": "Antonio Brailovsky",
+            "editorial": "Capital Intelectual",
+            "publicacion": 2010,
+            "descripcion": "¿Por qué se inunda Buenos Aires? En este libro Antonio Elio Brailovsky recorre los casi cinco siglos de vida de la urbe fundada en 1536 por Pedro de Mendoza, estudia el progresivo avance de la urbanización sobre las zonas inundables en la Ciudad de Buenos Aires y su rea Metropolitana y corrobora una hipótesis contundente: los desastres naturales no existen; la inundación de Buenos Aires no es obra de la fatalidad; para lograr que se inundara fue necesario un proceso de lenta construcción social.",
+            "img": "imgLibros/ciudadInundable.jpg"
+        },
+        {
+            "nombre": "la argentina",
+            "titulo": "La Argentina",
+            "autor": "Ruy Díaz de Guzmán",
+            "editorial": "Claridad",
+            "publicacion": 1612,
+            "descripcion": "La Argentina de Ruy Díaz de Guzmán, concluida en 1612, obra liminar de la historiografía y la literatura, es uno de los primeros grandes discursos sobre la conformación inicial del espacio rioplatense, discurso donde la sangre india del origen se subsume en la concepción de un territorio escrito y descripto desde la mismidad europea.",
+            "img": "imgLibros/laArgentina.jpg"
+        },
+        {
+            "nombre": "cuentos de amor, de locura y de muerte",
+            "titulo": "Cuentos de amor, de locura y de muerte",
+            "autor": "Horacio Quiroga",
+            "editorial": "Pluton",
+            "publicacion": 1917,
+            "descripcion": "Cuentos de amor de locura y de muerte es un libro de cuentos de Horacio Quiroga publicado en 1917 por la Sociedad Cooperativa Editorial Limitada de Buenos Aires. La primera publicación incluye 18 relatos y en siguientes ediciones el propio autor realiza algunas modificaciones en los cuentos y excluye Los ojos sombríos, El infierno artificial y El perro rabioso. El tema de la muerte resalta en la mayoría de los relatos. Por decisión expresa del autor, el título no lleva coma. ",
+            "img": "imgLibros/cuentosAmor.jpg"
+        },
+        {
+            "nombre": "el entenado",
+            "titulo": "El entenado",
+            "autor": "Juan José Saer",
+            "editorial": "Planeta",
+            "publicacion": 1983,
+            "descripcion": "El grumete de una expedición española al Río de la Plata, a principios del siglo XVI, es capturado y adoptado por los indios colastinés. Conoce así unas tradiciones y rituales que lo enfrentan a nuevas percepciones de la realidad. En el mejor tono de las tradicionales Crónicas de Indias, Saer nos coloca frente a cuestiones como lo real, la memoria y el lenguaje, dentro de una historia que se lee como un libro de aventuras.",
+            "img": "imgLibros/elEntenado.jpg"
+        },
+        {
+            "nombre": "el rio sin orillas",
+            "titulo": "El río sin orillas",
+            "autor": "Juan José Saer",
+            "editorial": "Seix Barral - Biblioteca breve (Planeta)",
+            "publicacion": 1991,
+            "descripcion": "En El río sin orillas, la historia y la cultura, el pasado y el presente se funden en la ajustada y vigorosa escritura de Saer, que organiza los hechos con un orden propio, que no es el del reportaje ni el del tratado ni el de la autobiografía, sino el que parece más cercano a sus afectos e inclinaciones artísticas: un híbrido sin género definido del que existe una rica tradición en la literatura argentina.",
+            "img": "imgLibros/rioOrillas.jpg"
+        },
+        {
+            "nombre": "alla lejos y hace tiempo",
+            "titulo": "Allá lejos y hace tiempo",
+            "autor": "Guillermo Hudson",
+            "editorial": "Terramar",
+            "publicacion": 1918,
+            "descripcion": "Allá lejos y hace tiempo es un libro autobiográfico escrito por Guillermo Enrique Hudson cuando tenía más de 75 años, en el Reino Unido en 1918 en el que evoca su niñez y juventud pasadas en una zona rural de Argentina, su país natal.",
+            "img": "imgLibros/allaLejos.jpeg"
+        },
+        {
+            "nombre": "misteriosa buenos aires (el hambre y el pastor del rio)",
+            "titulo": "Misteriosa Buenos Aires (El hambre y El pastor del río)",
+            "autor": "Manuel Mujica Lainez",
+            "editorial": "Debolsillo",
+            "publicacion": 1950,
+            "descripcion": "Misteriosa Buenos Aires es una obra de ficción del escritor argentino Manuel Mujica Láinez compuesta por 42 relatos breves cuya acción está centrada en la ciudad de Buenos Aires, desde su primera fundación en 1536 hasta el año 1904. Los cuentos de la colección pertenecen en su mayoría al género realista, aunque los hay también fantásticos y maravillosos. Se combinan en el libro personajes reales y ficticios en una prosa sumamente lírica y ornamentada, característica del autor.",
+            "img": "imgLibros/misteriosaBuenosAires.jpg"
+        },
+        {
+            "nombre": "las aventuras de huckleberry finn",
+            "titulo": "Las aventuras de Huckleberry Finn",
+            "autor": "Mark Twain",
+            "editorial": "Penguin Clásicos (Megustaleer)",
+            "publicacion": 1884,
+            "descripcion": "La obra se publicó por primera vez en Inglaterra en diciembre de 1884 y la primera edición estadounidense del libro, en febrero de 1885.  Se caracteriza por su vívida descripción de personajes y lugares a lo largo del río Misisipi. Ambientado en una sociedad del sur estadounidense anterior a la guerra, la cual dejó de existir alrededor de 20 años antes de la publicación del libro, Las aventuras de Huckleberry Finn es a menudo una sátira mordaz de mentalidades arraigadas, en especial del racismo.",
+            "img": "imgLibros/aventuras.jpg"
+        },
+        {
+            "nombre": "el danubio",
+            "titulo": "El Danubio",
+            "autor": "Claudio Magris",
+            "editorial": "Anagrama (Ver Riverside)",
+            "publicacion": 1986,
+            "descripcion": "De ese río lleno de interrogantes, que no es solo “agua visible, expuesta al cielo y a la mirada de los hombres”, Magris construirá un tratado de más de 300 páginas, en el que sigue las estaciones del Danubio, desde los riachuelos que lo alimentan en los prados germanos hasta convertirse en el “río superlativo”.",
+            "img": "imgLibros/elDanubio.jpeg"
+        },
+        {
+            "nombre": "origen y formacion del partido de alte. brown",
+            "titulo": "Origen y formación del partido de Alte. Brown",
+            "autor": "Jorge Fumiére",
+            "editorial": "Archivo Histórico Ricardo Levene",
+            "publicacion": "",
+            "descripcion": "Origen y formación del partido de Alte. Brown",
+            "img": "imgLibros/almirante.jpg"
+        },
+        {
+            "nombre": "parana ra'anga",
+            "titulo": "Paraná Ra'anga",
+            "autor": "Graciela Silvestri (Coord.)",
+            "editorial": "CCP - AECID",
+            "publicacion": 2012,
+            "descripcion": "El artículo es fruto de una colaboración interdisciplinaria con el Dr Alejandro Gangui y el licenciado Pablo Vena, derivada de la expedición Paraná Ra'Angá, cuyos objetivos presentamos. Paraná Ra’anga (la figura del Paraná, en guaraní) es el nombre de una Expedición Científico-Cultural que recorrió los ríos de la Plata, Paraná y Paraguay, desde Buenos Aires hasta Asunción, durante el mes de marzo de 2010. El proyecto agrupó a unos cuarenta científicos y artistas de tres países en una lenta y enriquecedora travesía fluvial, poniendo en activo contacto actores de diferentes orígenes y disciplinas que transcurren por separado, en el marco de una experiencia espacio temporal inusual.",
+            "img": "imgLibros/parana.jpg"
+        },
+        {
+            "nombre": "manual de la flora de los alrededores de buenos aires",
+            "titulo": "Manual de la flora de los alrededores de Buenos Aires",
+            "autor": "Ángel Cabrera y Elsa Zardini",
+            "editorial": "AME",
+            "publicacion": 1978,
+            "descripcion": "En la provincia de Buenos Aires las compuestas representan la sexta parte de la flora de plantas vasculares con 113 géneros y 356 especies de las cuales unas 55 son adventicias y el resto indígenas. En este catálogo los taxa fueron ordenados alfabéticamente y en el caso de los géneros, han sido acomañados por la tribu a la que pertenece. Para cada uno de ellos da el nombre científico y vulgar, referencias bibliográficas, aspectos morfológicos más importantes, status, estado conservacionista, ecología, distritos biogeográficos, distribución geográfica, uso, ejemplar examinado. ",
+            "img": "imgLibros/floraBuenosAires.jpg"
+        },
+        {
+            "nombre": "mariposas de la ciudad de bs. as. y alrededores",
+            "titulo": "Mariposas de la Ciudad de Bs. As. y alrededores",
+            "autor": "Ezequiel Núñez Bustos",
+            "editorial": "Ed. Vázquez Mazzini",
+            "publicacion": 2010,
+            "descripcion": "Una Guía imprescindible para conocer todas las mariposas que vuelan en las reservas urbanas y áreas silvestres de la Ciudad de Buenos Aires y alrededores. Con atractivas fotografías color de todas las especies en libertad, que muestran cómo se posan en el suelo o en las flores, y también de ejemplares montados, que permiten observar claramente sus detalles.",
+            "img": "imgLibros/mariposas.jpg"
+        },
+        {
+            "nombre": "aves de la ciudad de buenos aires",
+            "titulo": "Aves de la Ciudad de Buenos Aires",
+            "autor": "Tito Narosky",
+            "editorial": "Ed. Vázquez Mazzini",
+            "publicacion": "",
+            "descripcion": "Tito Narosky es uno de los más destacados escritores y ornitólogos argentinos. Es autor o coautor de más de 40 libros. Narosky ha estudiado y observado aves silvestres durante más de 50 años, ha realizado más de 200 viajes de estudio, recorriendo todas las provincias argentinas y países de Sudamérica y Centroamérica. Ha sido mentor y director de varias generaciones de ornitólogos y observadores de aves.",
+            "img": "imgLibros/aves.jpg"
+        },
+        {
+            "nombre": "los que se van",
+            "titulo": "Los que se van",
+            "autor": "Juan Carlos Chebez",
+            "editorial": "Albatros",
+            "publicacion": 1994,
+            "descripcion": "'Los que se van' es un llamado de alerta para que todos los argentinos nos despertemos ante el pedido de auxilio de una cantidad creciente de especies que peligran y que nuestros hijos corren riesgo de no llegar a conocer.",
+            "img": "imgLibros/seVan.jpg"
+        },
+        {
+            "nombre": "los que se van II",
+            "titulo": "Los que se van II",
+            "autor": "Juan Carlos Chebez",
+            "editorial": "Albatros",
+            "publicacion": 2008,
+            "descripcion": "Juan Carlos Chebez, prestigioso naturalista y conservacionista junto con numerosos naturalistas, fotógrafos, ilustradores y colaboradores, nos brinda un completo panorama de este acuciante problema: el de perder especies que aun no llegamos a conocer por completo. En este tomo se incluyen las características, la distribución, las costumbres y el estado de conservación de las aves más amenazadas de la Argentina, junto con su bibliografía específica.",
+            "img": "imgLibros/seVan2.jpg"
+        },
+        {
+            "nombre": "los que se van III",
+            "titulo": "Los que se van III",
+            "autor": "Juan Carlos Chebez",
+            "editorial": "Albatros",
+            "publicacion": 2008,
+            "descripcion": "'Los que se van III' incluye las características, distribución, costumbres y estado de conservación de los mamíferos más amenazados de la Argentina, junto con su bibliografía específica. Su autor; Juan Carlos Chebez, plasmó en ella su pasión por la naturaleza y la necesidad imperiosa de conservala intacta antes de que sea demasiado tarde.",
+            "img": "imgLibros/seVan3.jpg"
+        },
+        {
+            "nombre": "cuantos clasicos regionalizados I",
+            "titulo": "Cuantos clásicos regionalizados I",
+            "autor": "Walter Carzon y Roberta Iannamico",
+            "editorial": "Albatros",
+            "publicacion": 2010,
+            "descripcion": "Las palabras y los dibujos se combinan en esta atractiva colección para contarnos los famosos cuentos clásicos adaptados a las distintas culturas de la Argentina. Con glosario de pictogramas y una seccion informativa sobre culturas que se proponen. Incluye Caperucita Roja del Noroeste Pulgarcito de la Patagonia, La bella durmiente del Litoral y El libro de la selva del monte impenetrable.",
+            "img": "imgLibros/cuentosClasicos.jpg"
+        },
+        {
+            "nombre": "cuentos clasicos regionalizados II",
+            "titulo": "Cuentos clásicos regionalizados II",
+            "autor": "Walter Carzon y Roberta Iannamico",
+            "editorial": "Albatros",
+            "publicacion": 2014,
+            "descripcion": "Los mejores cuentos clásicos regionalizados con Pictogramas. Este libro incluye: Blancanieves de la Tierra del Fuego, Las Habichuelas mágicas del Gran Chaco, La Sirenita de la Patagonia Austral, El sastrecillo de las Pampas.",
+            "img": "imgLibros/cuentosClasicos2.jpg"
+        },
+        {
+            "nombre": "la niña del agua y otros mitos y leyendas de america",
+            "titulo": "La niña del agua y otros mitos y leyendas de América",
+            "autor": "Liliana Cinetto",
+            "editorial": "Albatros",
+            "publicacion": 2015,
+            "descripcion": "Una colección que nos trae; de aquí y de allá; historias antiquísimas: mitos; leyendas y fábulas que no pierden su vigencia y su encanto; y siguen deleitando a los niños como lo hicieran hace muchísimos años cuando fueron contadas por primera vez. Recreadas por Liliana Cinetto; con el humor que caracteriza su escritura.",
+            "img": "imgLibros/laNi.jpg"
+        },
+        {
+            "nombre": "animales en peligro x 4",
+            "titulo": "Animales en peligro x 4",
+            "autor": "Tato Affif",
+            "editorial": "Albatros",
+            "publicacion": "",
+            "descripcion": "Cuando hablamos sobre las especies en peligro de extinción solemos mencionar amenazas como la destrucción de su ambiente natural, la caza furtiva o la contaminación, pero hay una amenaza silenciosa muy cerca de nosotros: el desconocimiento. ¿Cómo vamos a valorar y salvar lo que no conocemos?",
+            "img": "imgLibros/animales4.jpg"
+        },
+        {
+            "nombre": "ecología para curiosos",
+            "titulo": "Ecología para curiosos",
+            "autor": "",
+            "editorial": "Albatros",
+            "publicacion": 2017,
+            "descripcion": "Ecología para curiosos te propone un recorrido, a través de preguntas y respuestas sencillas, por distintos temas relacionados con los recursos naturales, las especies que habitan la Tierra, los distintos tipos de energía sustentable y la importancia de reciclar objetos y materiales de la vida cotidiana.",
+            "img": "imgLibros/ecologia.jpg"
+        },
+        {
+            "nombre": "el matadero",
+            "titulo": "El matadero",
+            "autor": "Esteban Echeverría",
+            "editorial": "Random/Gárgola/Ministerio de Educación",
+            "publicacion": 1871,
+            "descripcion": "El matadero es un cuento escrito por el argentino Esteban Echeverría entre 1838 y 1840. Participa de las formas del cuadro de costumbres. Fue publicado veinte años después de la muerte del autor, en 1871, en la Revista del Río de la Plata, por Juan María Gutiérrez.",
+            "img": "imgLibros/elMatadero.jpg"
+        },
+        {
+            "nombre": "todos los fuegos el fuego",
+            "titulo": "Todos los fuegos el fuego",
+            "autor": "Julio Cortázar",
+            "editorial": "Random",
+            "publicacion": 1966,
+            "descripcion": "Todos los fuegos el fuego es el título del cuarto libro de cuentos del escritor argentino Julio Cortázar, publicado en 1966 bajo la Editorial Sudamericana. Considerado uno de los mejores libros de relatos del autor; la obra reúne ocho cuentos de trabajada composición. Es considerado un clásico de la literatura en español y varios de estos títulos son considerados clásicos en la obra del autor.",
+            "img": "imgLibros/fuegos.jpg"
+        },
+        {
+            "nombre": "el barrio pueblo de nueva pompeya",
+            "titulo": "El barrio pueblo de Nueva Pompeya",
+            "autor": "Luis J. Martín",
+            "editorial": "Gob. Ciudad de Bs. As.",
+            "publicacion": 1996,
+            "descripcion": "Historia del barrio-pueblo de Nueva Pompeya",
+            "img": "imgLibros/pompeya.jpg"
+        },
+        {
+            "nombre": "nueva pompeya. mi barrio",
+            "titulo": "Nueva Pompeya. Mi barrio",
+            "autor": "Carlos Salvador Luppi",
+            "editorial": "Ábaco",
+            "publicacion": 1989,
+            "descripcion": "Nueva Pompeya. Mi barrio",
+            "img": "imgLibros/pompeya2.jpg"
+        },
+        {
+            "nombre": "new pompey",
+            "titulo": "New Pompey",
+            "autor": "Horacio Convertini",
+            "editorial": "Horacio Convertini",
+            "publicacion": 2012,
+            "descripcion": "Cali vuelve cansado a la casita de los viejos: vacía, en una Pompeya tan pobre y tan casi apocalíptica como buena parte del sur de la ciudad, en donde la niebla del Riachuelo sólo puede asociarse con la radiactividad y la peste. En el barrio del que huyó o lo expulsaron -y el despliegue de la relación entre estos términos es uno de los aciertos de esta novela- por puto, solo, casi sin recursos y a merced de la sombra del padre, Cali se encontrará bailando un tango de dos que es también un duelo: como en los orígenes del género porteño, la danza será entre machos y la distancia entre el abrazo y la cuchillada, escasa.",
+            "img": "imgLibros/newPompey.jpg"
+        },
+        {
+            "nombre": "la historia de la matanza",
+            "titulo": "La historia de La Matanza",
+            "autor": "Alberto Samid",
+            "editorial": "Lajouane",
+            "publicacion": 2007,
+            "descripcion": "La historia de La Matanza",
+            "img": "imgLibros/matanza.jpg"
+        },
+        {
+            "nombre": "historia del partido de avellaneda",
+            "titulo": "Historia del Partido de Avellaneda",
+            "autor": "Federico Fernández Larraín",
+            "editorial": "Ciudad",
+            "publicacion": "",
+            "descripcion": "Historia del Partido de Avellaneda",
+            "img": "imgLibros/avellaneda.jpg"
+        }
+
+    ]
+}

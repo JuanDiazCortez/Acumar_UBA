@@ -1,0 +1,1054 @@
+html, body {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Lato;
+}
+
+.vm37_main-container {
+    min-height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    width: 100%;
+    max-width: none;
+    overflow: unset;
+    margin: auto;
+    padding: unset;
+    box-sizing: border-box;
+}
+
+
+.vm37_map-cont, #vm37_myMap {
+    height: 100vh;
+}
+
+.vm37_responsive-margins {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.vm37_header {
+    position: absolute;
+    z-index: 401;
+    width: 100%;
+    background-color: #fff;
+}
+
+.vm37_menu-columns {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin: 0 -15px;
+}
+
+.vm37_logo-cont {
+    align-self: center;
+    text-align: left;
+    margin: 0 15px;
+}
+
+.vm37_logo {
+    height: 52px;
+    width: 250px;
+    background-size: cover;
+}
+
+.vm37_menu__toggle, .vm37_r-button {
+    display: none;
+}
+
+.vm37_menu {
+    align-self: center;
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.vm37_menu__link vm37_r-link {
+    flex: content;
+    margin: 0 10px;
+}
+
+.vm37_menu__group > a {
+    padding: 25px 15px;
+
+}
+
+.vm37_menu__list, .vm37_r-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.vm37_menu__group {
+}
+
+.vm37_description-cont {
+    margin: 40px auto;
+}
+
+.vm37_description-box {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.vm37_description-in {
+    background-color: #fff;
+    padding: 25px;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.vm37_modal-cont-block {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: table;
+}
+
+.vm37_modal-cont-ext {
+    position: relative;
+    left: 50%;
+    z-index: 502;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vm37_modal-cont-int {
+    position: relative;
+    left: -50%;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 32%);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.32);
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 32%) !important;
+    border-radius: 5px;
+    padding: 20px;
+    display: table-cell;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.vm37_modal-input-title {
+    /*width: 100%;*/
+    width: 250px;
+    text-align: center;
+    font-style: italic;
+}
+
+.vm37_modal-input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    display: block;
+    padding: 8px;
+    border: 0;
+    background-color: #e2e2e2;
+}
+
+.vm37_modal-confirm-cont {
+    text-align: center;
+}
+
+.vm37_modal-confirm {
+    cursor: pointer;
+    background-color: #e2e2e2;
+    padding: 9px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    outline: 1px solid #e2e2e2;
+}
+
+.vm37_date-card-big {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.vm37_date-card-little {
+    width: 50%;
+    padding: 0 15px 0px 15px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.vm37_date-card {
+    margin: 15px 0 15px 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.32);
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.32) !important;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.vm37_date-card-remove-cont {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+}
+
+.vm37_date-card-remove-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.leaflet-popup-content > .vm37_date-card-big {
+    width: 400px;
+}
+
+.leaflet-popup-content > .vm37_date-card-big > .vm37_date-card {
+    margin: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none !important;
+    padding: 5px;
+}
+
+.leaflet-popup-content-wrapper {
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.32) !important;
+    border-radius: 5px !important;
+}
+
+.leaflet-popup-content {
+    margin: 20px !important;
+    width: auto !important;
+    line-height:inherit !important;
+}
+
+.vm37_card-cols {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.vm37_left-card {
+    box-sizing: border-box;
+    order: 1;
+    flex: 1;
+    align-self: center;
+}
+
+.vm37_right-card {
+    box-sizing: border-box;
+    order: 2;
+    background-color: #E2E2E2;
+    align-self: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+#vm37_cardLibro > .vm37_date-card > .vm37_card-cols > .vm37_right-card {
+    background: none;
+}
+
+.vm37_pic-card-cont {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.vm37_renglon-card, .vm37_como-llegar {
+    clear: both;
+    display: table;
+}
+
+.vm37_renglon-card {
+    margin: 4px 0 4px 0;
+}
+
+.vm37_icon-card-cont, .vm37_renglon-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vm37_icon-card {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.vm37_calendario-icon {
+    background-image: url("../img37/calendario-icon.png");
+}
+
+.vm37_external-icon {
+    background-image: url("../img37/external-icon.png");
+}
+
+.vm37_libro-icon {
+    background-image: url("../img37/libro-icon.png");
+}
+
+.vm37_ubicacion-icon {
+    background-image: url("../img37/ubicacion-icon.png");
+}
+
+.vm37_card-text {
+    display: renglon-cell;
+}
+
+.vm37_img-box-size {
+    width: 100%;
+}
+
+.vm37_como-llegar {
+    background-color: #F5F5F5;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.leaflet-verticalcenter {
+    position: absolute;
+    z-index: 400;
+    pointer-events: none;
+    top: 50%; /* possible because the placeholder's parent is the map */
+    transform: translateY(-50%); /* using the CSS3 Transform technique */
+    padding-top: 10px;
+}
+
+.leaflet-verticalcenter .leaflet-control {
+    margin-bottom: 10px;
+}
+
+.vm37_next-events-cont {
+    margin-bottom: 50px;
+}
+
+.vm37_next-events {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #a2a2a2;
+}
+
+.vm37_encabezado-tarjetas {
+    padding: 25px auto;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.vm37_col-left-encabezado-tarjetas {
+    align-self: center;
+}
+
+.vm37_col-right-encabezado-tarjetas {
+    padding: 25px 0;
+    align-self: center;
+    text-align: right;
+    display: table;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.vm37_col-right-encabezado-tarjetas > .vm37_buttons-ordenar > a {
+    margin: 5px;
+    padding: 12px;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.vm37_col-right-encabezado-tarjetas > div {
+    margin-left: auto;
+}
+
+.vm37_text-cont-ordenarPor {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vm37_text-ordenarPor, .vm37_order-cont, .vm37_buttons-ordenar {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.vm37_order-cell {
+    display: table;
+}
+
+.vm37_ordenar-ascendente-cont, .vm37_ordenar-descendente-cont {
+    display: table-cell;
+    height: 25px;
+    width: 25px;
+    padding: 0 9px;
+    box-sizing: content-box;
+}
+
+.vm37_ordenar-ascendente, .vm37_ordenar-descendente {
+    height: 100%;
+    display: block;
+    background: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+}
+
+#vm37_next-events-placement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+/*FOOTER*/
+.vm37_footer{
+    background-color: #2e2e2e;
+    display: flex;
+    flex-flow: column nowrap ;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    color: white;
+}
+
+.vm37_footer-info{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem; */
+}
+
+.vm37_footer-info img{
+    padding: 0.5rem;
+    width: 200px;
+    max-width: 100%;
+}
+
+.vm37_footer-info p{
+    text-align: center;
+}
+
+.vm37_footer-redes{
+    flex-grow: row nowrap;
+    text-align: center;
+}
+
+.vm37_footer > .vm37_responsive-margins {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.vm37_footer-red {
+    display: inline-block;
+}
+
+.vm37_footer-redes i {
+    margin: 0.6rem;
+    color:   white;
+}
+
+.vm37_footer-redes a {
+    color:   white;
+}
+
+.vm37_disclaimer-cont {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.vm37_disclaimer-text {
+    font-size: 10px;
+}
+
+/* JS contenidos */
+
+.vm37_mainContenidos {
+    padding-bottom: 25px;
+}
+
+.vm37_buscador{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.vm37_buscador h1{
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: rgba(0, 157, 255, 0.844); */
+}
+
+.vm37_buscador input {
+    width: 30rem;    
+    margin: 0 auto;
+    padding: 10px;
+    border-style: double;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.vm37_boton{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vm37_boton1{
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    color:white;
+    background-color: rgb(40, 90, 136);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vm37_card-contenido {
+    /* text-align: center; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    /* align-items: center; */
+}
+
+
+.vm37_card-contenido h3{
+    color: rgb(161, 160, 160);
+}
+
+.vm37_card-contenido p{
+    color: rgb(161, 160, 160);
+    padding-right: 2.5rem;
+    text-align: justify;
+}
+
+
+.vm37_imgLibros{
+    height: 15rem;
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.vm37_main-contact {
+    margin-top: 70px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.vm37_encabezado-contact {
+    font-size: 70px;
+}
+
+.vm37_img-contact-main-div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.vm37_img-contact-a {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.vm37_img-contact {
+    height: auto;
+    width: 70vw;
+    max-width: 475px;
+}
+
+.vm37_mail-contact {
+    font-size: 50px;
+}
+
+
+/* FIN JS contenidos */
+
+.leaflet-top, .leaflet-bottom {
+    z-index: 400;
+}
+
+@media (max-width: 800px) {
+    .vm37_responsive-margins {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    }
+    
+    #vm37_next-events-placement {
+        margin: 0;
+    }
+    
+    .vm37_date-card-little {
+    width: 100%;
+    padding: 0;
+    }
+    
+    .vm37_card-cols {
+    display: block;   
+    }
+    
+    .vm37_left-card {
+    order: 2;
+    }
+    
+    .vm37_right-card {
+    order: 1;
+    }
+
+    .leaflet-popup-content > .vm37_date-card-big {
+    width: 20em;
+    }
+    
+    .vm37_pic-card-cont {
+    width: auto;
+    }
+
+    .vm37_menu-columns {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .vm37_logo-cont {
+    text-align: center;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    }
+
+    .vm37_logo {
+        margin: 0 auto;
+    }
+
+    .vm37_encabezado-tarjetas {
+        display: block;
+    }
+    
+    .vm37_col-left-encabezado-tarjetas {
+    
+    }
+    
+    .vm37_col-right-encabezado-tarjetas {
+        display: block;
+        text-align: center;
+    }
+
+    .vm37_col-right-encabezado-tarjetas > div {
+        margin: 0 auto;
+    }
+
+    .vm37_text-cont-ordenarPor, .vm37_text-ordenarPor, .vm37_order-cont, .vm37_buttons-ordenar {
+        display: block;
+    }
+
+    .vm37_order-cell {
+        margin: 15px auto;
+    }
+
+    /* JS contenidos */
+
+    .vm37_buscador {
+        width: 100%;
+    }
+
+    .vm37_div-input {
+        width: 80%;
+        max-width: 30rem;
+    }
+
+    .vm37_buscador input {
+        width: 100%;
+    }
+
+    .vm37_card-contenido {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .vm37_card-contenido p{
+        padding-right: 0rem;
+    }
+
+    .vm37_imgLibros{
+        height: 13rem;
+        width: 8rem;
+    }
+    /* FIN JS contenidos */
+
+    /*FOOTER*/
+    .vm37_footer-redes{
+        margin: 2rem 0;
+    }
+
+    /* Mobile Menu Start */
+    .vm37_menu__toggle, .vm37_r-button {
+    display: block;
+    }
+    
+    .vm37_r-button {
+    --uirButtonBackgroundColor: var(--rButtonBackgroundColor, transparent);
+    --uirButtonPadding: var(--rButtonPadding, var(--rButtonPaddingTop, 0) var(--rButtonPaddingRight, 0) var(--rButtonPaddingBottom, 0) var(--rButtonPaddingLeft, 0));
+    --uirButtonBorderWidth: var(--rButtonBorderWidth, 0);
+    --uirButtonBorderStyle: var(--rButtonBorderStyle, solid);
+    --uirButtonBorderColor: var(--rButtonBorderColor, currentColor);
+    --uirButtonFontFamily: var(--rButtonFontFamily, inherit);
+    --uirButtonFontSize: var(--rButtonFontSize,  inherit);
+    --uirButtonColor: var(--rButtonColor);
+    
+    background-color: var(--uirButtonBackgroundColor);
+    padding: var(--uirButtonPadding);
+    
+    border-width: var(--uirButtonBorderWidth);
+    border-style: var(--uirButtonBorderStyle);
+    border-color: var(--uirButtonBorderColor);
+    
+    cursor: pointer;
+    
+    font-family: var(--uirButtonFontFamily);
+    font-size: var(--uirButtonFontSize);
+    }
+    
+    .vm37_r-button::-moz-focus-inner,
+    .vm37_r-button[type="button"]::-moz-focus-inner,
+    .vm37_r-button[type="reset"]::-moz-focus-inner,
+    .vm37_r-button[type="submit"]::-moz-focus-inner {
+        
+    /* Remove the inner border and padding in Firefox. */
+        
+    border-style: none;
+    padding: 0;
+    }
+    
+    /* The component will reset browser's styles of link */
+    
+    .vm37_r-link {
+    --uirLinkDisplay: var(--rLinkDisplay, inline-flex);
+    --uirLinkTextColor: var(--rLinkTextColor);
+    --uirLinkTextDecoration: var(--rLinkTextDecoration, none);
+    display: var(--uirLinkDisplay) !important;
+    color: var(--uirLinkTextColor) !important;
+    text-decoration: var(--uirLinkTextDecoration) !important;
+    }
+
+    .vm37_menu__group > a {
+        padding: 0;
+    }
+    
+    /* The component will reset browser's styles of list */
+
+    .vm37_menu__list, .vm37_r-list {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    
+    .vm37_r-list {
+    --uirListPaddingLeft: var(--rListPaddingLeft, 0);
+    --uirListMarginTop: var(--rListMarginTop, 0);
+    --uirListMarginBottom: var(--rListMarginBottom, 0);
+    --uirListListStyle: var(--rListListStyle, none);
+    
+    padding-left: var(--uirListPaddingLeft) !important;
+    margin-top: var(--uirListMarginTop) !important;
+    margin-bottom: var(--uirListMarginBottom) !important;
+    list-style: var(--uirListListStyle) !important;
+    }
+    
+    /* Basic styles of the hamburger component */
+    
+    .vm37_m-hamburger {  
+    --uiHamburgerThickness: var(--hamburgerThickness, 4px);
+    
+    display: var(--hamburgerDisplay, inline-flex);
+    width: var(--hamburgerWidth, 28px);
+    height: var(--hamburgerHeight, 20px);
+    
+    position: relative;
+    }
+    
+    .vm37_m-hamburger::before, 
+    .vm37_m-hamburger::after, 
+    .vm37_m-hamburger__label {
+    width: 100%;
+    height: var(--uiHamburgerThickness);
+    border-radius: var(--hamburgerBorderRadius, 5px);
+    background-color: var(--hamburgerBackgroundColor, currentColor);
+    
+    position: absolute;
+    left: 0;
+    }
+    
+    .vm37_m-hamburger::before, 
+    .vm37_m-hamburger::after {
+    content:"";
+    }
+    
+    .vm37_m-hamburger::before {
+    top: 0;
+    }
+    
+    .vm37_m-hamburger::after {
+    bottom: 0;
+    }
+    
+    .vm37_m-hamburger__label {
+    /* The calculation of middle hamburger button line position */
+        
+    top: calc(50% - calc(var(--uiHamburgerThickness) / 2));
+    }
+    
+    /* helper to hide elements that are available only for screen readers. */
+    
+    .vm37_screen-reader {
+    width: var(--screenReaderWidth, 1px) !important;
+    height: var(--screenReaderHeight, 1px) !important;
+    padding: var(--screenReaderPadding, 0) !important;
+    border: var(--screenReaderBorder, none) !important;
+    
+    position: var(--screenReaderPosition, absolute) !important;
+    clip: var(--screenReaderClip, rect(1px, 1px, 1px, 1px)) !important;
+    overflow: var(--screenReaderOverflow, hidden) !important;
+    }
+    
+    /*
+    =====
+    Estilos
+    =====
+    */
+    
+    .vm37_menu {
+    --uiMenuCircleSize: var(--menuCircleSize, 6.25rem);
+    --uiMenuCircleOffset: var(--menuCircleOffset, 1rem);
+    --uiMenuCircleHeight: calc(var(--uiMenuCircleSize) / 2);  
+    --uiMenuCircleBackgroundColor: var(--menuCircleBackgroundColor, currentColor);
+    
+    --uiMenuHamburgerWidth: var(--menuHamburgerWidth, 1.75rem);
+    --uiMenuHamburgerHeight: var(--menuHamburgerHeight, 1.25rem);
+        
+    --rButtonPaddingTop: calc(var(--uiMenuCircleHeight) - var(--uiMenuHamburgerHeight) - var(--uiMenuCircleOffset));
+        
+    --hamburgerWidth: var(--uiMenuHamburgerWidth);
+    --hamburgerHeight: var(--uiMenuHamburgerHeight);
+    --hamburgerBackgroundColor: var(--menuHamburgerBackgroundColor, #fff);
+    
+    width: 100%;
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: var(--menuZindex, 9998);
+    }
+    
+    .vm37_menu__nav {
+    box-sizing: border-box;
+    width: 100%;
+    height: 0;
+    
+    transition: opacity .2s ease-out;
+    opacity: 0;
+    
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+    }
+    
+    .vm37_menu__list {
+    width: 100%;
+    max-height: 100%;
+    
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    }
+    
+    .vm37_menu__toggle {
+    box-sizing: border-box;
+    width: var(--uiMenuCircleSize);
+    height: var(--uiMenuCircleHeight);
+    flex: none;
+    
+    position: relative;
+    z-index: 0;
+    }
+    
+    .vm37_menu__toggle::before {
+    /*
+    1. The font-size property is used to simplify calculations of the element's sizes and position
+    2. The negative value for the bottom property need for hiding half of circle. 
+    */
+    
+    content: "";
+    width: 1em;
+    height: 1em;
+    font-size: var(--uiMenuCircleSize); /* 1 */
+    
+    background-color: var(--uiMenuCircleBackgroundColor);
+    border-radius: 50%;
+    
+    position: absolute;
+    bottom: -.5em; /* 2 */
+    left: calc(50% - .5em);
+    z-index: -1;
+    
+    will-change: width, height;
+    transition: transform .25s cubic-bezier(0.04, -0.1, 0.29, 0.98),
+                width .25s cubic-bezier(0.04, -0.1, 0.29, 0.98),
+                height .25s cubic-bezier(0.04, -0.1, 0.29, 0.98);
+    }
+    
+    /* styles of hamburger's animation */
+    
+    .vm37_m-hamburger::before, 
+    .vm37_m-hamburger::after, 
+    .vm37_m-hamburger__label {
+    transition-timing-function: ease;
+    transition-duration: .15s;  
+    }
+    
+    .vm37_m-hamburger::before, 
+    .vm37_m-hamburger::after {
+    transition-property: transform;
+    }
+    
+    .vm37_m-hamburger__label {
+    transition-property: transform, opacity;
+    }
+    
+    /*
+    =====
+    Estados
+    =====
+    */
+    
+    .vm37_menu__toggle:focus {
+    outline: var(--menuHaburgerOutlineOWidth, 2px) solid var(--menuHaburgerOutlineColor);
+    outline-offset: var(--menuHaburgerOutlineOffset, 5px);
+    }
+    
+    .vm37_menu_activated {
+    height: 100%;
+    }
+    
+    .vm37_menu_activated .vm37_menu__nav {
+    flex-grow: 1;
+    opacity: 1;
+    
+    will-change: opacity;
+    transition-duration: .2s;
+    transition-delay: .3s;
+    }
+    
+    .vm37_menu_activated .vm37_menu__toggle::before {
+    width: 100vmax;
+    height: 100vmax;
+    transform: translate3d(-50vh, -50vh, 0) scale(5);
+    transition-duration: 1s;
+    }
+    
+    .vm37_menu:not(.vm37_menu_activated) .vm37_menu__list {
+    display: none;
+    }
+    
+    .vm37_menu_activated .vm37_m-hamburger::before {
+    top: 50%;
+    transform: translate3d(0, -50%, 0) rotate(45deg);
+    }
+    
+    .vm37_menu_activated .vm37_m-hamburger::after {
+    transform: translate3d(0, -50%, 0) rotate(135deg);
+    top: 50%;
+    }
+    
+    .vm37_menu_activated .vm37_m-hamburger__label{
+    transform: rotate(-45deg) translate3d(-.285em,-.3em, 0);
+    opacity: 0;
+    }
+    
+    /*
+    =====
+    Custom
+    =====
+    */
+    
+    :root {
+    --colorWhite: #fff;
+    --colorMain: #5FBAA7;
+    --menuCircleBackgroundColor: var(--colorMain);
+    --menuHamburgerBackgroundColor: var(--colorWhite);
+    /*--menuHaburgerOutlineColor: var(--colorMain);*/
+    }
+    
+    .vm37_menu_activated {
+    /*--menuHaburgerOutlineColor: var(--colorWhite);*/
+    }
+    
+    .vm37_menu__group {
+    --rLinkTextColor: var(--colorWhite);
+    
+    padding: .5rem 2rem; 
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+    
+    /* Mobile Menu End */
+
+    .vm37_img-contact-main-div {
+        width: 100%;
+        height: auto;
+    }
+
+    .vm37_encabezado-contact {
+        font-size: 35px;
+    }
+
+    .vm37_mail-contact {
+        font-size: 20px;
+    }
+
+    .vm37_footer > .vm37_responsive-margins {
+        padding: 25px 15px;
+    }
+
+}

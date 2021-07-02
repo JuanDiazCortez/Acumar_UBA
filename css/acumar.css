@@ -1,0 +1,1360 @@
+.contenedor-botones-tp {
+    background-color: #1b3146;
+    padding: 2.2% 15%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-botones-tp h2 {
+    color: rgb(237, 239, 250);
+    margin-right: 10px;
+}
+
+.botones-vms {
+    padding: .3% .5% .3% .5%;
+    font-size: 1em;
+    margin-left: 1%;
+    margin-right: 1%;
+    border:none;
+    background: #7393ad;
+    color:#202d42;
+    padding:10px;
+    cursor:pointer;
+    border-radius: 10px;
+
+}
+
+.botones-vms:hover{
+    background: #445766;
+    color:rgb(237, 239, 250);
+    transition: 1s;
+
+}
+
+/*------------------------------- CSS VM36 ------------------------ */
+
+
+
+/*------------------------------- CSS VM37 ------------------------ */
+
+
+
+/*------------------------------- CSS VM38 ------------------------ */
+
+
+* {
+  box-sizing: border-box; margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+
+
+body {
+    font-size: 1.6rem; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.actividad-contvm38 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbarvm38 {
+	/*width: 100%;
+	height: auto;*/
+	background: #373334;
+	display: flex;
+	/*flex-direction: row;*/
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 10% 2rem 10%;
+}
+/*-------LOGO-------*/
+.logovm38 {
+	width: fit-content;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-imgvm38{
+    width: 6.0rem;
+    padding: 0.2rem;
+    border: 1px solid transparent;   
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 0.25em;
+    transition: 0.25s ease-in ;
+}
+
+.logo-textovm38{
+	font-size: 3.0rem;
+	padding-left: 0.3rem;
+	color: #EFF3F6;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+    cursor: pointer;
+    display: inline-block;  
+}
+
+/*-------------NAV ITEMS ----------------*/
+.nav-itemsvm38{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: fit-content; 
+}
+
+.nav-itemsvm38 li {
+	font-size: 1.5rem;
+	margin-left: 2em;
+	color: #EFF3F6;
+	line-height: 40px;
+    cursor: pointer;
+}
+
+.nav-itemsvm38 li a{
+	text-decoration: none;
+	color: #EFF3F6;
+    cursor: pointer;
+}
+
+.nav-itemsvm38 li a:hover{
+	color: #FAB23C;
+	transition: 0.25s;
+}
+
+span.logo-texto:hover {
+	color: #FAB23C;
+	transition: 0.25s ;
+}
+
+img.logo-img:hover {
+    border: 1px solid #FAB23C;
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 0.25em;
+    transition: 0.15s ease-in ;
+}
+
+/*------------------NAV 2 ----------*/
+#nav2vm38 {
+    font-size: 1.2rem;
+	width: 100%;
+	height: auto;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	box-shadow: 0 5px 6px #ccc;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+/*----------BARRA DE BÚSQUEDA--------*/
+#busquedavm38 {
+	display: flex;  
+}
+
+#busquedavm38 input {
+  padding: 0.6em;
+  font-size: 1.7rem;
+  border: 2px solid #ccc;
+  float: left;
+  flex-grow: 1;
+  background: #F3F2F0;
+  border-radius: 10px;
+}
+
+#busquedavm38 input:focus{
+	outline: none;
+	border: solid 2px #1D2B38;
+}
+
+#busquedavm38 button {
+  flex-grow: 0.1;
+  padding: 0.5em;
+  width: 3em;
+  background: #FAB23C;
+  color: #fff;
+  font-size: 1.5rem;
+  border:none;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 0.6em;
+}
+
+#busquedavm38 button:hover {
+  background: #d69833;
+}
+
+/*-----------------NAV ITEMS 2---------------*/
+.nav-items2vm38 {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center; 
+    height: 100%;
+}
+
+.nav-items2vm38 li{
+	font-size: 1.8rem;
+	margin-left: 2em;
+	font-weight: bold;
+	height: 100%;
+	line-height: 10px;
+	font-weight: 0,600;
+}
+
+.nav-items2vm38 li a{
+  display: inline-block;
+  padding-top: 1rem;
+  position: relative;
+  color: #1D2B38;
+  padding-bottom: 0.8em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-items2vm38 .li-ulvm38 a:after {
+  font-size: 1.4rem;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleY(0);
+  height: 0.3em;
+  bottom: 0;
+  left: 0;
+  background-color: #FAB23C;
+  transform-origin: bottom right;
+  transition: transform 0.10s ease-out;
+}
+
+.nav-items2vm38 .li-ulvm38 a:hover:after {
+  transform: scaleY(1);
+  transform-origin: bottom left;
+}
+
+/* --------------------------------------------     MAIN-PAG.PRINCIPAL   -------------------------------------------------*/
+.bibliotecainfovm38 p{
+    font-size: 1.2em;
+    color: #000;
+    text-align: justify;
+}
+
+.bibliotecainfovm38 h2{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.contenedor1vm38{
+    padding-top: 3%;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.contenedor1vm38 img{
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+
+.fondoinfovm38 {
+    width: 55%;
+    height: fit-content;
+    font-size: 1.5rem;
+    position: absolute;             
+    top:30%;
+    left: 0%;
+    padding-left: 10%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: #fff;
+    opacity: 0.90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.bibliotecainfovm38 {
+    color: #1D2B38;
+    width: 100%;
+}
+
+.contenedor2vm38 {
+    margin: 3% 10% 3% 10%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-size: 1em;
+}
+
+.contenedor2vm38 img{
+    width: 10em;
+}
+
+.contenedor2vm38 h2{
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 40%;
+    border-bottom: solid 3px transparent;
+}
+
+.preview-bibliotecavm38, .preview-cronovm38{
+    width: 48%;
+    height: fit-content;
+}
+
+.preview-cronovm38{
+    position: relative;
+    color: #1D2B38;
+    height: fit-content;
+    padding: 3%;
+    background-color:white;
+    border: solid 1px #B9B9B9;
+    border-radius: 5px;
+    display:flex;
+    cursor: pointer;
+} 
+
+.preview-cronovm38 .texto-cronovm38 {
+  margin-left: 5%;
+}   
+
+.preview-bibliotecavm38{
+    position: relative;
+    color: #1D2B38;
+    height: auto;
+    padding: 3%;
+    background-color:white;
+    border: solid 1px #B9B9B9;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+} 
+
+.preview-bibliotecavm38 .texto-bibliotecavm38 {
+    margin-left: 5%;
+}
+
+.contenedor-linkvm38 a {
+    color: #FAB23C;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    bottom: 11%;
+    right: 8%;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.contenedor-linkvm38 a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FAB23C;
+    text-decoration-thickness: 2px;
+}
+
+.preview-cronovm38:hover, .preview-bibliotecavm38:hover {
+    transform: scale(1.01);
+    transition: 0.20s ease-in-out;
+    box-shadow: 0px 5px 10px #ccc;
+}
+
+/*-----------------NOTICIAS-------------------------------*/
+.noticiasvm38 h2 {
+    padding-left: 10%;
+    padding-right: 10%; 
+    color: #4D4D4D;
+    text-decoration: underline;
+    text-decoration-color: #9599A2;
+    text-decoration-thickness: 3px;
+}
+
+.contenedor3vm38{
+    background-color:#fff;
+    box-shadow: -3px 3px 3px 3px #B9B9B9;
+    border-radius: 5px;
+    margin: auto;
+    background-color:#fff;
+    width: 80%;
+    padding: 3%;
+}
+
+.contenedor3vm38 img {
+    width: 100%;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.uslidervm38 {
+    position: relative;
+    width: 100%;
+}
+
+.uslidervm38 li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menuvm38 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.menuvm38 li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menuvm38 li {
+    margin-right: 0.4em;
+}
+
+.menuvm38 li a {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FAB23C;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+/* -------------------------------------------------- FOOTER ---------------------------------------------------------------*/
+.footervm38 {
+    margin-top: 5%;
+	background: #373334;
+	text-align: center;
+	margin-bottom: 0;
+	color: #fff;
+	width: 100%;
+}
+
+.mainfootervm38 {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	padding-left: 1.6rem;
+	padding-right: 1.6rem;
+	width: 100%;
+    font-size: 1.4rem;
+    height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.container-mainfooter1vm38 {
+	max-width: 16%;
+}
+
+.container-mainfooter1vm38 img {
+	height: 4em;
+	width: 10em;
+}
+
+.container-mainfooter1vm38 img:hover {
+    border: 1px solid #FAB23C;
+    border-radius: 5%;
+    border-style: dotted;
+    border-width: 0.3em;
+    transition: 0.15s ease-in ;	
+}
+
+.container-mainfooter2vm38 {
+	max-width: 20%;
+}
+
+.container-mainfooter3vm38 {
+	max-width: 20%;
+}
+
+.container-mainfooter4vm38 {
+	max-width: 20%;
+}
+
+.container-mainfooter5vm38 {
+	max-width: 20%;
+}
+
+.container-mainfooter5-imagesvm38 {
+	display: flex;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	justify-content: space-between;
+}
+
+.container-mainfooter5vm38 img {
+	height: 1.5em ;
+	width: 1.5em;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.row-footervm38 a img:hover {
+    border: 1px solid #FAB23C;
+    border-style: dotted;
+    transition: 0.15s ease-in ;
+    padding: 0.1rem;
+}
+
+.container-mainfooter6vm38 {
+	max-width: 16%;
+    margin-right: 2em;
+}
+
+.h1footervm38 {
+	font-size: 1.1em;
+}
+
+.mainfootervm38 p {
+	font-size: 1em;
+    font-weight: 400;
+    margin-top: 0.4em;
+}
+
+.row2-footervm38{
+    text-align: center;
+ 
+    align-items: center;
+}
+
+.fasvm38 {
+    margin-right: 0.5em;
+    margin-top: 0.3em;
+    font-size: 1.1em;  
+}
+
+.farvm38 {
+    margin-right: 0.5em;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* ------------------------------------------------------ AYUDA -------------------------------------------------------------*/
+.preg-ayudavm38 {
+	color: #1D2B38;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	text-align: justify;
+}
+
+.preg-ayudavm38 p {
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+
+.contacto-ayudavm38 {
+	color: #1D2B38;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 1%;
+    text-align: center;
+}
+
+.contacto-ayudavm38 a {
+    color: #FAB23C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* --------------------------------------------   ACTIVIDADES Y CONCURSOS   ----------------------------------------------------*/
+.titulovm38 {
+    font-size: 1.6rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.titulovm38 h2 {
+    color: #1D2B38;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #9599A2;
+    margin-bottom: 1.0em;
+}
+
+.titulovm38 p {
+    margin-bottom: 2%;
+    color: #1D2B38;
+}
+
+.actividadvm38 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: fit-content;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: -3px 3px 3px 3px #b9b9b9;
+    border-radius: 5px;
+}
+
+.tit-actividadvm38 {
+    width: 100%;
+    color: #1D2B38;
+    background-color: #FAB23C;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    padding-left: 3.5%;
+    padding-right: 3%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.actividad-contvm38 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.img-actividadvm38 {
+    width: 40%;
+    height: auto;
+}
+
+.img-actividadvm38 img {
+    width: 100%;
+}
+
+.texto-actividadvm38 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.texto-actividadvm38 h3 {
+    margin-bottom: .5em;
+    font-size: 1.2em;
+    color: #1D2B38;
+}
+
+.texto-actividadvm38 p {
+    font-size: 1.0em;
+}
+
+/*---------------------------------------------------   CATALOGO  ----------------------------------------------------------*/
+.buscadorvm38 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    color: #1D2B38;
+}
+
+.texto-buscadorvm38 {
+    margin-bottom: 1rem;
+}
+
+.tarjeta-librovm38 {
+    color: #1D2B38;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3rem;
+    background: #fff;
+    box-shadow: -3px 3px 3px 3px #b9b9b9;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.tarjeta-librovm38 h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #FAB23C;
+}
+
+.tarjeta-librovm38 h3 {
+    margin-top: 0.6%;
+}
+
+.descripcion-librovm38 {
+    margin-top: 0.6%;
+}
+
+.genero-librovm38 {
+    display: flex;
+    align-items: baseline;
+}
+
+.genero-librovm38 p {
+    margin-left: 1%;
+    background: #cfcfcf;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+}
+
+.editorial-librovm38, .año-librovm38, .rating-librovm38 {
+    display: flex;
+    align-items: baseline;
+    width: -webkit-fill-available;
+}
+
+.editorial-librovm38 p, .año-librovm38 p, .rating-librovm38 p {
+    margin-left: 1.2%;
+}
+
+.editorial-año-librovm38 {
+    display: flex;
+    margin-top: 0.6%;
+}
+
+/* --------------------------------------------   RADIO COMUNITARIA   ----------------------------------------------------*/
+.titulo-radiovm38 {
+	color: #1D2B38;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration: underline;
+    text-decoration-color: #9599A2;
+    text-decoration-thickness: 3px;
+}
+
+.info-radiovm38 {
+	color: #1D2B38;
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+}
+
+.info-radiovm38 p {
+	margin-top: 1%;
+}
+
+/* --- SLIDER --- */
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contenedor-slidervm38{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul.slider-radiovm38{
+    position: relative;
+    width: 100%;
+    height: 300px;
+	text-align: center;
+}
+
+ul.slider-radiovm38 li {
+    left: 0px;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+    background:#fff;
+}
+
+ul.slider-radiovm38 li img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu-radiovm38 {
+    text-align: center;;
+    margin: 12px;
+}
+
+.menu-radiovm38 li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-radiovm38 li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fab13cc9;
+    padding: 7px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+/* -------- BOTON RADIO ------ */
+.contenedor-linkRvm38 {
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+}
+
+.link-radiovm38 {
+	background-color: #FAB23C;
+	width: 40rem;
+	padding: 2%;
+	border-radius: 20px;
+}
+
+.link-radiovm38 img {
+	width: 30px;
+	margin-left: 5%;
+}
+
+.link-radiovm38 a {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+    text-decoration: none;
+}
+
+/* --------------------------------------------   QUIENES SOMOS   ---------------------------------------------------- */
+.info-quienes-somosvm38 {
+	color: #1D2B38;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+}
+
+h2.titulo-integrantesvm38 {
+	color: #1D2B38;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration: underline;
+    text-decoration-color: #9599A2;
+    text-decoration-thickness: 3px;
+}
+
+.integrantesvm38 {
+	display: flex;
+	height: fit-content;
+    flex-direction: column;
+    align-content: center;
+}
+
+.integrantexvm38 img {
+	width: 13%;
+}
+
+.integrantexvm38 {
+	box-shadow: -3px 3px 3px 3px #b9b9b9;
+    border-radius: 5px;
+	display:flex;
+	align-items: center;
+	padding: 3%;
+	margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.info-integrantevm38 {
+	color: #1D2B38;
+	margin-left: 2%;
+}
+
+.info-integrantevm38 h3 {
+	text-decoration: underline;
+    text-decoration-color: #FAB23C;
+    text-decoration-thickness: 3px;
+}
+
+.info-integrantevm38 p {
+	margin-top: 2%;
+	text-align: justify;
+}
+
+/*--------------DONDE ESTAMOS----------*/
+.googlemapvm38 {
+    border: 3px solid #FAB23C;
+    width: 350px;
+    height: 300px;
+}
+
+.map1vm38 {
+    box-shadow: -3px 3px 3px 3px #b9b9b9;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+.mapacont1vm38 {
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #fff;
+    padding: 30px;
+    font-size: 80%;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.mapa1infovm38 {
+    color:#1D2B38;
+    margin-left: 30px;
+}
+
+.divtitmap1vm38 {
+    background:#FAB23C;
+    height: 60px;
+    color: #1D2B38;
+    display: flex;
+    align-items: center;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/*----------------------------------------  DISEÑO RESPONSIVE    --------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1050px) {
+    .mainfootervm38 {
+       flex-wrap: wrap;
+       justify-content: space-around;
+       font-size: 1.2rem;
+       
+    }
+    .container-mainfooter1vm38, .container-mainfooter2vm38, .container-mainfooter3vm38, .container-mainfooter4vm38, .container-mainfooter5vm38, .container-mainfooter6vm38 {
+        min-width: 100%;
+        margin: 1em;
+    }
+
+    .container-mainfooter5-imagesvm38 {
+        justify-content: space-evenly;
+    }
+
+    .container-mainfooter5vm38 img {
+        height: 2.2em;
+        width: auto;
+        
+    }
+    .container-mainfooter1vm38 img {
+        width: 17em;
+        height: auto;
+    }
+    
+    .contenedor2vm38 {
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin: 3% 6%;
+    }
+
+    .contenedor2vm38 img {
+        width: 7em;
+    }
+    .contenedor2vm38 h2{
+        margin-bottom: 0;
+    }
+    .contenedor-linkvm38 {
+        margin-top: 29%;
+    }
+    
+    .preview-bibliotecavm38, .preview-cronovm38{
+        width: 100%;
+        
+    }
+
+    .preview-bibliotecavm38 {
+        margin-top: 3%;
+    }
+
+    .contenedor3vm38 {
+        width: 90%;
+        padding-right: 6%;
+        padding-left: 6%;
+        box-shadow: 0px 2px 6px 0px #b9b9b9;
+    } 
+
+    .bibliotecainfovm38 p {
+        font-size: 1em;
+        color: #000;
+    }
+
+    .bibliotecainfovm38 h2 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 0.3em;
+    }
+
+    .contenedor1vm38 {
+        padding-top: 3%;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        font-size: .6rem;
+        height: auto;
+    }
+
+    .contenedor1vm38 img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .fondoinfovm38 {
+        width: 95%;
+        height: fit-content;
+        font-size: 1.7em;
+        position: absolute;            
+        top: 13%;
+        left: 0%;
+        padding-left: 10%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background: #fff;
+        opacity: 0.90;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 5px 5px 0px;    
+    }
+
+    /*-----------------NOTICIAS-------------------------------*/
+    .contenedor3vm38 {
+        width: 90%;
+        padding: 3%;
+        margin-top: 1%;
+    }
+
+    .uslidervm38 li img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .menuvm38 {
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .menuvm38 li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .menuvm38 li {
+        margin-right: 0.4em;
+    }
+
+    .menuvm38 li a {
+        display: inline-block;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 6%;
+        width: 3rem;
+        height: 3rem;
+        font-size: 17px;
+        border-radius: 100%;
+    }
+
+    /*--------------------------ACTIVIDADES-------------------------*/
+    .titulovm38 {
+        padding-right: 6%;
+        padding-left: 6%;
+        font-size: 1.2rem;
+    }
+
+    .titulovm38 h2 {
+        margin-bottom: .5em;
+    }
+
+    .actividadvm38 {
+        margin-top: 1.5em;
+        box-shadow: 0px 2px 6px 0px #b9b9b9;
+        margin-left: 6%;
+        margin-right: 6%;
+        font-size: 1.2rem;
+    }
+
+    .tit-actividadvm38 {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .actividad-contvm38 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    .img-actividadvm38 {
+        width: 100%;
+        margin-bottom: .3em;
+    }
+
+    /*-------------- Radio ----------------------*/
+    .link-radiovm38 {
+        width: 26rem;
+    }
+
+    .info-radiovm38 {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .titulo-radiovm38 {
+        padding-left: 6%;
+        padding-right: 6%;
+        margin-bottom: .5em;
+    }
+
+    ul.slider-radiovm38 li img {
+        width: 88%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .texto-actividadvm38 {
+        margin-left: 0;
+    }
+
+    .texto-actividadvm38 h3 {
+        margin-bottom: .3em;
+    }
+
+    ul.slider-radiovm38 {
+        height: 8.8em;
+    }
+
+    .menu-radiovm38 li a {
+        padding: 4px;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    /*----------------CATALOGO----------*/
+    .buscadorvm38 {
+        display: flex;
+        align-items: center;
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 1.2rem;
+    }
+
+    #busquedavm38 input {
+        font-size: 1.3rem;
+    }
+
+    /*-----TARJETAS LIBROS----*/
+    .tarjeta-librovm38 {
+        display: flex;
+        flex-direction: column;
+        color: #1D2B38;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 2.5rem;
+        background: #fff;
+        box-shadow: 0px 2px 6px 0px #b9b9b9;
+        border-radius: 5px;
+        padding: 1em;
+        font-size: 1.2rem;
+    }
+
+    .tarjeta-librovm38 h2 {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #FAB23C;
+    }
+
+    .tarjeta-librovm38 h3 {
+        margin-top: 0.5rem;
+    }
+
+    .descripcion-librovm38 {
+        margin-top: 0.5rem;
+    }
+
+    .genero-librovm38 {
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+
+    .editorial-librovm38, .año-librovm38, .rating-librovm38, .genero-librovm38{
+        margin-top: 0.5rem;
+    }
+
+    .editorial-librovm38 p, .año-librovm38 p, .rating-librovm38 p, .genero-librovm38 p  {
+        margin-left: 1.2%;
+    }
+    
+    .genero-librovm38 p{
+        margin-top: 0.5rem;
+    }
+
+    .editorial-año-librovm38 {
+        display: flex;
+        margin-top: 0.6%;
+        flex-direction: column;
+    }
+
+    /*------------ ¿Donde Estamos? -------------*/
+    .mapacont1vm38 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    .map1vm38 {
+        margin-left: 6%;
+        margin-right: 6%;
+        width: auto;
+        margin-top: 5%;
+        box-shadow: 0px 2px 6px 0px #b9b9b9;
+        font-size: 1.2rem;
+    }
+
+    .titmap1vm38 {
+        font-size: 1.8rem;  
+    }
+
+    .googlemapvm38 {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #FAB23C;
+    }
+
+    .mapa1infovm38 {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+
+    .divtitmap1vm38 {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    /*-------------- ¿Quienes Somos? -----------------*/
+    .info-quienes-somosvm38 {
+        text-align: justify;
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 1.2rem;
+    }
+
+    h2.titulo-integrantesvm38 {
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 2rem;
+    }
+
+    .integrantexvm38 {
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 1.5em;
+        padding: 1em;
+        width: auto;
+        box-shadow: 0px 2px 6px 0px #b9b9b9;
+        font-size: 1.2rem;
+    }
+
+    .integrantexvm38 img {
+        width: 26%;
+    }
+
+    .info-integrantevm38 {
+        margin-left: 1em;
+    }
+
+    .info-integrantevm38 p{
+        margin-top: .4em;
+        text-align: left;
+    }
+
+    /*------------- Ayuda ---------------*/
+    .preg-ayudavm38 {
+        padding-left: 6%;
+        padding-right: 6%;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+
+    
+ /*----- NAVBAR----- */
+    .navbarvm38 {
+        flex-direction: column;
+        padding:2rem 6% 1rem 6%;
+    }
+    .logovm38{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-textovm38{
+        font-size: 2.3rem;
+    }
+
+    .logo-imgvm38{
+        width: 5rem;
+    }
+
+    .nav-itemsvm38{
+        margin-top: 1rem;
+    }
+    .nav-itemsvm38 li {
+        font-size: 1.5rem;
+        margin: 0;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+    #nav2vm38 {
+        justify-content: center;
+        padding: 1rem 6% 1rem 6%;
+    }
+    .nav-items2vm38{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-items2vm38 li{
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+}

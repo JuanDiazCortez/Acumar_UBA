@@ -1,0 +1,211 @@
+{
+    "libro": [{
+        "ISBN": 9789509009998,
+        "titulo": "El Peletero",
+        "autor": "Luis Guzman",
+        "editorial": "Edhasas",
+        "año": 2007,
+        "descripcion": "Hay oficios que van contra su época. Ser peletero, hoy, es uno de ellos. ¿Cómo defender la dignidad de un trabajo que se basa en el sacrificio de animales en un mundo que se empeña en proteger a las especies? Landa, peletero e hijo de peleteros, no concibe su vida fuera de ese mundo destinado a la desaparecer y no admite la derrota con resignación. No está solo: el azar, y también cierta inclinación a la mentira, le deparan un socio inesperado, Hueso. Cada uno busca su venganza, si se quiere, un modesto ajuste de cuentas. Aunque para lograrlo tengan que apelar a instrumentos dudosos y se mezclen, llevados por la pasión y una impalpable soledad, con el delito.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina",
+            "Novela Antihéroes"]
+    },
+    {
+        "ISBN": 9789871920426,
+        "titulo": "El Campito",
+        "autor": "Juan Diego Incardona",
+        "editorial": "Interzona",
+        "año": 2009,
+        "descripcion": "El campito es una unidad territorial clsica del gran buenos aires. Lugar hacia donde se va deshaciendo la ciudad pero no la propiedad privada. Un agujero entre las casas que el vecindario colma de sentido. Es el lugar que genera los ms grandes jugadores de ftbol del mundo y provoca los asesinatos de niñas adolescentes. All se unen de forma extraña la gloria dediscuten y pelean el espacio pblico y la propiedad privada. Juan diego incardona lleva las posibilidades de ese escenario al lmite. En un relato dantesco donde los residuos industriales crean animales fabulososlas escenas de la divina comedia se entrelazan a la mitologa barrial y peronistay la vida cotidiana no se distingue claramente del teatro de operaciones de una batalla que necesita ser contada. Tiene tambin la virtud de mostrarnos de manera casi inmediatarealista y al mismo tiempo fantstica y piadosael modo en el que se anudan el loteo suburbano y sus personajes a un gran relato nacional.",
+        "rating": "4/5",
+        "genero": ["Ficción"]
+    },
+    {
+        "ISBN": 9789873616679,
+        "titulo": "Florentina",
+        "autor": "Eduardo Muslip",
+        "editorial": "Caballo de Troya",
+        "año": 2017,
+        "descripcion": "“Aparece Florentina”, así empieza esta novela de Eduardo Muslip que se concentra en el recuerdo vívido de una abuela. Florentina aparece en un cuarto, pero está en una sala de estar. Su sola presencia le impone al narrador esta novela. Retrato e hilvanado relato, Florentina es una muestra de la destreza con la que Muslip se entrena en el ejercicio de la narrativa: la abuela, el recuerdo de Galicia, el anticlericalismo, la alimentación, el mundo de las primeras lecturas, diez años en la vida del narrador y diez años en la vida de Florentina, la vejez, el amoroso diálogo con los muertos, le dictan al autor una novela conmovedora y extraordinaria.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina",
+        "Narrativa Contemporanea Argentina"]
+    },
+    {
+        "ISBN": null,
+        "titulo": "Riachuelo, zona de promesas",
+        "autor": "Beatriz Mendoza",
+        "editorial": "UNDAV Ed.",
+        "año": 2017,
+        "descripcion": "La contaminación ambiental del Río Matanza-Riachuelo es una problemática que parece no tener fin. En 2004 fue llevada a instancias judiciales por un grupo de vecinos que presentaron una demanda en reclamo de la recomposición del ambiente y la creación de un fondo para financiar el saneamiento. Esa situación dio origen a la denominada “Causa Mendoza”, en la que se responsabilizaba por daños y perjuicios al Estado Nacional, la provincia de Buenos Aires, la Ciudad Autónoma de Buenos Aires y a 44 empresas.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9789505579891,
+        "titulo": "Política, derechos y justicia ambiental. El conflicto del Riachuelo",
+        "autor": "Gabriela Merlinsky",
+        "editorial": "Fondo de Cultura Económica",
+        "año": 2013,
+        "descripcion": "En las áreas más afectadas por la contaminación hídrica de Buenos Aires, se ha observado la construcción de demandas con las que diferentes organizaciones sociales cuestionan la desigualdad ambiental. En este artículo se analizan las características de estas movilizaciones a través de un estudio de caso, ponderando en su presentación pública y la construcción de los marcos de acción colectiva que definen la situación como un reclamo por justicia ambiental.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9789875580163,
+        "titulo": "El color del río",
+        "autor": "Graciela Silvestri",
+        "editorial": "UNQ (Universidad Nacional de Quilmes)",
+        "año": 2003,
+        "descripcion": "¿Cómo se produce un paisaje industrial? Este libro relata la biografía del Riachuelo como paisaje, a través de materiales tan diversos como diversos son los elementos que lo constituyen.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": null,
+        "titulo": "La 26",
+        "autor": "Sabatella",
+        "editorial": "INV",
+        "año": 2017,
+        "descripcion": "Entre junio y diciembre de 2017 el fotógrafo Gian Paolo Minelli y el escritor Leonardo Sabbatella, por encargo del Instituto de Vivienda de la Ciudad, visitaron Villa 26 para hacer un registro del barrio antes de su mudanza y demolición. La relocalización de Villa 26 responde al fallo de la Corte Suprema que exigió, debido a la contaminación, que los gobiernos de todas las jurisdicciones de la cuenca Matanza-Riachuelo garanticen relocalizaciones a las personas instaladas en los primeros 35 metros de la orilla. Compartimos un fragmento del libro de imágenes y testimonios que realizaron Minelli y Sabbatella sobre un lugar que ya no existe.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": null,
+        "titulo": "Barrio Gris",
+        "autor": "Gómez Bas",
+        "editorial": "Hyspamérica - Emecé",
+        "año": 1952,
+        "descripcion": "Una novela de 1952 que transcurre en el Sarandí de las postrimerías de la década del `40, aparecen lugares que ya no están, que algunos alcanzamos a ver en sus últimos estertores y que eran el desfavorable zaguán para entrar a Quilmes. Es una pintura de arrabal de un realismo paradójicamente retórico, donde quizá hay algo de Proust en la recreación de las sensaciones producidas en ese estado de gracia que permite al autor entregarlas intactas a los lectores. Es una novela olvidada que fue un éxito editorial en su momento y que vale la pena recuperar para los que aman la literatura imperecedera...",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina",
+        "Novela"]
+    },
+    {
+        "ISBN": 9789873874864,
+        "titulo": "Los muertos del Riachuelo",
+        "autor": "Hernán Domínguez Nimo",
+        "editorial": "Interzona",
+        "año": 2018,
+        "descripcion": "Bizarra, sangrienta pero también desopilante, la historia que nos cuenta un anónimo cronista político, por boca de Hernán Domínguez Nimo, circula a velocidades exquisitas, combina una prosa sarcástica y precisa con el cine clase B, el gore, la cultura popular, el humor oscurísimo y hasta la ternura. Narrador de probada imaginación, sofisticado creador de mundos, el autor se mete esta vez con una Argentina posible y construye una alegoría loca que hace reír y horroriza, una trama tan absurda como verdadera porque sale de su propio, su más actual barro maloliente. En la frontera de Buenos Aires, las aguas negras y aceitosas del Riachuelo esconden muertos. Cada muerto es una historia, una deuda, una injusticia impune. Contaminación, política corrupta, un Estado que abandona a la gente más vulnerable son causas previsibles. Lo imprevisible es lo que está por ocurrir.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina",
+        "Narrativa",
+        "Gore"]
+    },
+    {
+        "ISBN": 9789877390834,
+        "titulo": "La boca roja del Riachuelo",
+        "autor": "Graciela Ramos",
+        "editorial": "SUMA (Random)",
+        "año": 2017,
+        "descripcion": "En una Argentina convulsionada por los coletazos de la Primera Guerra Mundial, inmersa en una situación social y política que parece salirse de control, Rosa María, una jovencita culta e idealista, abandona su Salta natal por Buenos Aires, donde quiere iniciar una nueva vida. Sin embargo, apenas llega a la ciudad cae en las redes de una organización de trata de personas, la Varsovia, que la obliga a trabajar como prostituta en el burdel Las Camelias. Allí, inesperadamente, traba una amistad que será para siempre con tres jóvenes muchachas inmigrantes, también apresadas ilegalmente, que se convertirán en su nueva familia. El tango y la milonga la llevarán a conocer a Juan, el hijo de un poderoso empresario local y perteneciente a otra clase social, con quien va a comenzar un amor desparejo en contra de los deseos de todos los que los rodean. Al mismo tiempo, el reclamo de los trabajadores por sus derechos laborales, el anarquismo y la pelea por la justicia social son el escenario que desencadenará la masacre conocida como La Semana Trágica, que dejó centenares de muertos y miles de personas torturadas y detenidas.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9789872572112,
+        "titulo": "El Riachuelo",
+        "autor": "Antonio Brailovsky",
+        "editorial": "CEAL",
+        "año": 2017,
+        "descripcion": null,
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9788433998064,
+        "titulo": "Las cosas que perdimos en el fuego (Bajo el agua negra)",
+        "autor": "Mariana Enriquez",
+        "editorial": "Anagrama (Ver Riverside)",
+        "año": 2016,
+        "descripcion": "El mundo de Mariana Enriquez no tiene por qué ser el nuestro, y, sin embargo, lo termina siendo. Bastan pocas frases para pisarlo, respirarlo y no olvidarlo gracias a una viveza emocional insólita. Con la cotidianidad hecha pesadilla, el lector se despierta abatido, perturbado por historias e imágenes que jamás conseguirá sacarse de la cabeza. Las autodenominadas «mujeres ardientes», que protestan contra una forma extrema de violencia doméstica que se ha vuelto viral; una estudiante que se arranca las uñas y las pestañas, y otra que intenta ayudarla; los años de apagones dictados por el gobierno durante los cuales se intoxican tres amigas que lo serán hasta que la muerte las separe; el famoso asesino en serie llamado Petiso Orejudo, que sólo tenía nueve años; hikikomori, magia negra, los celos, el desamor, supersticiones rurales, edificios abandonados o encantados... En estos doce cuentos el lector se ve obligado a olvidarse de sí mismo para seguir las peripecias e investigaciones de cuerpos que desaparecen o bien reaparecen en el momento menos esperado. Ya sea una trabajadora social, una policía o un guía turístico, los protagonistas luchan por apadrinar a seres socialmente invisibles, indagando así en el peso de la culpa, la compasión, la crueldad, las dificultades de la convivencia, y en un terror tan hondo como verosímil.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina",
+        "Narrativas Hispánicas"]
+    },
+    {
+        "ISBN": 9789871307449,
+        "titulo": "Sangre salada",
+        "autor": "Sebastián Hacher",
+        "editorial": "Marea editorial",
+        "año": 2011,
+        "descripcion": "Una narración vertiginosa sobre la feria textil ilegal más grande de Latinoamérica. Sangre Salada cuenta la saga de familias migrantes capaces de lidiar con la muerte y con el trabajo a destajo, entre la ambición y el sometimiento a las redes ilegales, siempre bajo la sombra de policías corruptos y jefes tan implacables como bizarros. Retrato de un conurbano próspero y brutal, es una crónica escrita con las herramientas de la literatura y la intensidad que sólo da la mejor investigación periodística. Sebastián Hacher caminó La Salada hasta temerla, y fotografió escenas impactantes que ilustran cada uno de los capítulos de esta obra; un texto clásico, un relato imperecedero sobre lo más perecedero: el consumo en el centro de producción y venta informal conocido como La Salada.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9789871786169,
+        "titulo": "Los otros",
+        "autor": "Josefina Licitra",
+        "editorial": "Debate",
+        "año": 2011,
+        "descripcion": null,
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": null,
+        "titulo": "El Riachuelo",
+        "autor": "Martin Kohan",
+        "editorial": "Cuaderno Lírico",
+        "año": 2018,
+        "descripcion": null,
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9789874127020,
+        "titulo": "Aguas arriba",
+        "autor": "Andrea Cuesta Ferrarazo y Silvina Babich",
+        "editorial": "EDULP",
+        "año": 2016,
+        "descripcion": "Este libro reúne un conjunto de miradas tan diversas como agudas, comprometidas y sensibles, centradas en el Riachuelo, su actual situación y su posible recuperación.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9789506984595,
+        "titulo": "El río y la ciudad",
+        "autor": "VV. AA.",
+        "editorial": "EDUNER",
+        "año": 2019,
+        "descripcion": "'¿Qué fue primero? ¿El río o la ciudad?', se plantea al comienzo Laura Gentilezza, responsable de este volumen. Y la pregunta atraviesa ágil todos los trabajos de este libro, distintos y al mismo tiempo confluyentes. Cualquier respuesta no puede sino regresarnos al inicio, como bien concluye Gentilezza: 'El río ha señalado el lugar en donde habrían de asentarse las ciudades que se benefician de las ventajas económicas e higiénicas procuradas por su proximidad. Las ciudades han dibujado alrededor de los ríos el marco que recorta su ritmo y los ingresa en el movimiento de la historia'. ¿Qué fue primero? El río y la ciudad tiene su origen en el coloquio Le fleuve et la ville. Possibilités descriptives d’une transformation permanente organizado en París en marzo de 2017 por la Universidad de Paris Est-Créteil, la Universidad de Paris 8 y la Universidad Nacional de Entre Ríos. Continuando una reflexión que comenzara en Paraná en 2015 y que diera por resultado el libro El horizonte fluvial –incluido también en la colección El País del Sauce–, en esta segunda etapa se convocó a narradores, poetas, críticos, editores, cineastas y artistas plásticos para que pusieran de manifiesto su experiencia con el río y la ciudad bajo la forma que mejor se adaptara a su mirada. Si bien los trabajos presentados provienen de puntos distantes de la geografía y de la lengua, todos responden con belleza y lucidez a aquellas preguntas iniciales. La lengua enriquece y erosiona sin descanso el espacio que habita –como el río, la ciudad; como la ciudad, el río–, en un recomenzar incesante que es al mismo tiempo descenso y ascenso.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": 9789871599882,
+        "titulo": "Agua y territorio",
+        "autor": "María Di Pace",
+        "editorial": "Ciccus",
+        "año": 2012,
+        "descripcion": "Destacada obra colectiva que explora la complejidad que surge de los problemas vinculados con el manejo del agua. El Área de Ecología Urbana, perteneciente al Instituto del Conurbano de la Universidad Nacional de General Sarmiento, se complace en presentar esta publicación. El equipo viene trabajando interdisciplinariamente el la temática de las cuencas hídricas de la RMBA desde el año 1999. La presente publicación sintetiza diversas experiencias de investigación con el objetivo de contribuir a una perspectiva metropolitana. Inevitablemente, la problemática aquí tratada se posicionará como un capítulo central de la agenda ambiental de la Gran Buenos Aires del siglo XXI. Este libro está dirigido a las personas que tienen la importante tarea de tomar decisiones relacionadas con el agua (tanto desde distintos niveles del sector público como desde el ámbito privado), a especialistas, a interesados en el tema y al público en general. Está dedicado a aquellos quienes, desde distintas instáncias, dan la batalla por una ciudad sustentable, es decir, por una distribución equitativa de costos y beneficios ambientales al interior de la sociedad.",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina"]
+    },
+    {
+        "ISBN": null,
+        "titulo": "La Boca del Riachuelo",
+        "autor": "José Pugliese",
+        "editorial": "Agrupación de Gente arte y Letras Impulso",
+        "año": null,
+        "descripcion": "Páginas de Historia de la Boca del Riachuelo (Con un ensayo sobre el lugar de la primera fundación de Buenos Aires)",
+        "rating": "4/5",
+        "genero": ["Literatura Argentina",
+        "Historia Argentina"]
+    },
+    {
+        "ISBN": null,
+        "titulo": "La Boca del Riachuelo en la Historia",
+        "autor": "Antonio Bucich",
+        "editorial": "Asociación de amigos de la escuela-museo de Bellas Artes de La Boca",
+        "año": 1971,
+        "descripcion": null,
+        "rating": "4/5",
+        "genero": ["Literatura Argentina",
+        "Historia Argentina"]
+    }
+]
+}

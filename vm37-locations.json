@@ -1,0 +1,57 @@
+[{
+    "type": "Feature",
+    "properties": {
+        "id": "1",
+        "nombre": "Estación Av. La Plata - Subte A",
+        "ubicacion": "Av. La Plata 1000",
+        "fecha": "2022-02-12T11:00",
+        "foto": "img37/event1.jpg",
+        "comollegar": "https://www.google.com/maps/dir//Av.+La+Plata,+Av.+Directorio+1,+C1424+CIA,+Buenos+Aires/@-34.6270103,-58.4265413,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bccb7be2a428af:0x8eaa6c2fbaaee70c!2m2!1d-58.4265413!2d-34.6270103"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.426417, -34.626972]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "id": "2",
+        "nombre": "Río Matanza-Riachuelo",
+        "ubicacion": "Carlos Pellegrini 1400",
+        "fecha": "2021-03-12T10:00",
+        "foto": "img37/event2.jpg",
+        "comollegar": "https://www.google.com/maps/dir//Carlos+Pellegrini+1400,+B1871DJD+Dock+Sud,+Provincia+de+Buenos+Aires/@-34.6408996,-58.3592096,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95a334a4d17ea125:0xf62bc2bbe0e5782f!2m2!1d-58.3570209!2d-34.6408996"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.346111, -34.6325]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "id": "3",
+        "nombre": "Plaza Aristóbulo del Valle",
+        "ubicacion": "Cuenca 2500",
+        "fecha": "2022-04-12T10:00",
+        "foto": "img37/event3.jpg",
+        "comollegar": "https://www.google.com/maps/dir//Plaza+Arist%C3%B3bulo+del+Valle,+Cuenca+2500,+C1417+AAF,+Buenos+Aires/@-34.6049892,-58.493141,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bcb626bf32469d:0x6712230a249f05fe!2m2!1d-58.4929327!2d-34.6055659"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.492775, -34.605061]
+    }
+}, {
+    "type": "Feature",
+    "properties": {
+        "id": "4",
+        "nombre": "Parque Centenario",
+        "ubicacion": "Av. Patricias Argentinas 236",
+        "fecha": "2022-05-10T10:00",
+        "foto": "img37/event4.jpg",
+        "comollegar": "https://www.google.com/maps/dir//Parque+Centenario,+Av.+D%C3%ADaz+V%C3%A9lez,+C1414+CABA/@-34.6064952,-58.4378278,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95bcca688994eb61:0xd055df0a7dafa86e!2m2!1d-58.4356338!2d-34.6064996"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-58.432775, -34.605061]
+    }
+}]
